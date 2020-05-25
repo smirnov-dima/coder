@@ -5,6 +5,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
         <style>
             .cl {
                 display: block;
@@ -15,12 +16,10 @@
             }
             .hdr {
                 text-align: center;
-                color: white;
                 font-size: 50px;
                 font-family: 'Caveat', cursive;
                 }
             .body {
-                background-color: #ccc;
                 margin: 0px;
                 margin: 0px;
                 padding: 0px;
@@ -64,23 +63,22 @@
                 display: flex;
                 align-items: center;
                 }
-            .cm {
-                background-color: #26fc42;
-            }
+            
 
             
          </style>
     </head>
  
-    <body class="body" link="white">
+    <body class="body">
         <header class="hdr"><a href="index.html">Дима Смирнов</a></header>
         
-        <header class="hdr1"><a href="info.html">Информация</a> | <a href="news.html">Новости</a> | <a href="contacks.html">Контакты</a> | <a href="projects.html">Проекты</a></header> 
-        <br>
-        <header class="hdr2">
-            <a href="autopost.html" class="btn cm">АВТОПОСТ</a>
-            <a href="cm.html" class="btn">ЧАТ МЕНЕДЖЕР</a>
-            <a href="raidsystem.html" class="btn">РЕЙД-СИСТЕМЫ</a>
+        
+        <header class="hdr1"><a href="info.html">Информация</a> | <a href="news.html">Новости</a> | <a href="contacks.html">Контакты</a> | <a href="projects.html" class="main">Проекты</a></header> 
+        <hr size="0.8" color="#1b2cc2">
+                <header class="hdr1">
+            <a href="autopost.html" class="main">Автопост</a> | 
+            <a href="cm.html" >Чат менеджер</a> | 
+            <a href="raidsystem.html" >Рейд боты</a>
         </header>
         <br><br><hr>
            <img src="vkvk.jpg" class="cl"> 
@@ -93,7 +91,7 @@
             <div class="mn"><hr size="6" color="#1b2cc2"><hr size="4" color="#1b2cc2"></p></div>
 		   <p>Начало: авторизация</p>
            <hr size="4" color="#1b2cc2">
-           <div class="mn"><p>Для начала напишите <a href="https://vk.me/first_avto_bot" class="a">в ЛС сообществу</a>. После вам для работы с ботом будет необходимо дать ему токен, что бы он смог выполнять ваши задания.<p>Давайте получим токен <a href="https://oauth.vk.com/authorize?client_id=2685278&scope=1073737727" class="a">тут</a>.<p><img src="vkvktok1.jpg" class="cl"> <p>Нажмите внизу страницы кнопку "Разрешить", после откроется страница. Копируйте на неё ссылку.<p><img src="vkvktok2.jpg" class="cl"><p>Теперь напишем в ЛС сообщества команду "Добавить токен <вставляем ссылку>".<p>Готово! Автопост добавил/обновил ваш токен и значит мы можем создавать первые задания.</p></div>
+           <div class="mn"><p>Для начала напишите <a href="https://vk.me/first_avto_bot" class="a">в ЛС сообществу</a>. После вам для работы с ботом будет необходимо дать ему токен, что бы он смог выполнять ваши задания.<p>Давайте получим токен <a href="https://oauth.vk.com/authorize?client_id=2685278&scope=1073737727&redirect_uri=https://oauth.vk.com/blank.html&display=page&response_type=token&revoke=1" class="a">тут</a>.<p><img src="vkvktok1.jpg" class="cl"> <p>Нажмите внизу страницы кнопку "Разрешить", после откроется страница. Копируйте на неё ссылку.<p><img src="vkvktok2.jpg" class="cl"><p>Теперь напишем в ЛС сообщества команду "Добавить токен <вставляем ссылку>".<p>Готово! Автопост добавил/обновил ваш токен и значит мы можем создавать первые задания.</p></div>
            <hr size="4" color="#1b2cc2">
            <p>Начало: первые информационные команды</p>
            <hr size="4" color="#1b2cc2">

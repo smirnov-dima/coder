@@ -2,6 +2,8 @@
 <html>
     <head>
         <title>Проекты</title>
+        <link rel="stylesheet" href="styles.css">
+
         <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
@@ -16,12 +18,10 @@
 				}
             .hdr {
                 text-align: center;
-                color: white;
                 font-size: 50px;
                 font-family: 'Caveat', cursive;
                 }
             .body {
-                background-color: #ccc;
                 margin: 0px;
                 margin: 0px;
                 padding: 0px;
@@ -43,7 +43,6 @@
                 font-size: 30px;
                 margin-left: auto;
                 margin-right: auto;   
-                color: white;      
             }
             P { 
                 text-align: center;
@@ -66,10 +65,7 @@
                 display: flex;
                 align-items: center;
             }
-            .main {
-                font-size: 40px;
-                color: tomato;
-            }
+            
             li {
                 text-align: center;
                 font-family: 'Balsamiq Sans', cursive;
@@ -80,13 +76,17 @@
          </style>
     </head>
  
-    <body class="body" link="white">
+    <body class="body" >
         <header class="hdr"><a href="index.html">Дима Смирнов</a></header>
         
         <header class="hdr1"><a href="info.html">Информация</a> | <a href="news.html">Новости</a> | <a href="contacks.html">Контакты</a> | <a href="projects.html" class="main">Проекты</a></header> 
-        <p><a href="autopost.html" class="btn">АВТОПОСТ</a>
-        <a href="cm.html" class="btn">ЧАТ МЕНЕДЖЕР</a>
-        <a href="raidsystem.html" class="btn">РЕЙД-СИСТЕМЫ</a></p>
+        <hr size="0.8" color="#1b2cc2">
+
+        <header class="hdr1">
+            <a href="autopost.html" class="">Автопост</a> | 
+            <a href="cm.html" class="">Чат менеджер</a> | 
+            <a href="raidsystem.html" class="">Рейд боты</a>
+        </header>
         <hr>
        
         <li>Чат менеджер</li>
