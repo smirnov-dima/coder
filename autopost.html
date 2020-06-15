@@ -1,29 +1,20 @@
-<!DOCTYPE HTML>
 <html>
     <head>
-        <title>АВТОПОСТ</title>
+        <title>Автопост</title>
         <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles.css">
         <style>
-            .cl {
-                display: block;
-                margin-left: auto;
-                margin-right: auto;
-                width: 800px;
-				height: 350px
-            }
             .hdr {
                 text-align: center;
                 font-size: 50px;
                 font-family: 'Caveat', cursive;
-                }
+            }
             .body {
                 margin: 0px;
                 margin: 0px;
                 padding: 0px;
-
             }
             .hdr1 {
                 text-align: center;
@@ -33,7 +24,7 @@
                 height: 50px;
                 display: flex;
                 align-items: center;
-                }
+            }
         
             a { 
                     text-decoration: none; /* Отменяем подчеркивание у ссылки */
@@ -62,16 +53,23 @@
                 height: 50px;
                 display: flex;
                 align-items: center;
-                }
+            }
+            .wrap { 
+                width: 100%; /* Ширина */
+            }
+            .wrap div {
+                background: #c2c2c2;
+                margin: 35px;
+                padding: 0px;
+                border: 5px solid;
+            }
             
-
             
          </style>
     </head>
  
     <body class="body">
         <header class="hdr"><a href="index.html">Дима Смирнов</a></header>
-        
         
         <header class="hdr1"><a href="info.html">Информация</a> | <a href="news.html">Новости</a> | <a href="contacks.html">Контакты</a> | <a href="projects.html" class="main">Проекты</a></header> 
         <hr size="0.8" color="#1b2cc2">
@@ -80,57 +78,84 @@
             <a href="cm.html" >Чат менеджер</a> | 
             <a href="raidsystem.html" >Рейд боты</a>
         </header>
-        <br><br><hr>
-           <img src="vkvk.jpg" class="cl"> 
-           <hr size="6" color="#1b2cc2">
-           <p>Актуальная информация об автопосте</p>
-           <hr size="6" color="#1b2cc2">
-           <div class="mn"><p><a href="https://vk.com/first_avto_bot" class="a">Автопост | Автостатус</a><p><a href="https://vk.com/invite/lfygmc7" class="a">Моментальная подписка на сообщество без заявок и ожиданий</a><hr size="1" color="#1b2cc2"><p>Функции: автоматическая отправка сообщений в личные сообщения пользователям сайта или сообщества, беседы, отправка постов, комментариев и даже смена статуса на странице. В текст можно вставлять различные переменные, преобразовывать цифры в тексте в смайлы, отправлять стикеры, управлять другими страницами не находясь на них и многое многое другое!</p></div>
-           <hr size="6" color="#1b2cc2">
-           <p>Описание всех возможностей и функций</p>
-            <div class="mn"><hr size="6" color="#1b2cc2"><hr size="4" color="#1b2cc2"></p></div>
-		   <p>Начало: авторизация</p>
-           <hr size="4" color="#1b2cc2">
-           <div class="mn"><p>Для начала напишите <a href="https://vk.me/first_avto_bot" class="a">в ЛС сообществу</a>. После вам для работы с ботом будет необходимо дать ему токен, что бы он смог выполнять ваши задания.<p>Давайте получим токен <a href="https://oauth.vk.com/authorize?client_id=2685278&scope=1073737727&redirect_uri=https://oauth.vk.com/blank.html&display=page&response_type=token&revoke=1" class="a">тут</a>.<p><img src="vkvktok1.jpg" class="cl"> <p>Нажмите внизу страницы кнопку "Разрешить", после откроется страница. Копируйте на неё ссылку.<p><img src="vkvktok2.jpg" class="cl"><p>Теперь напишем в ЛС сообщества команду "Добавить токен <вставляем ссылку>".<p>Готово! Автопост добавил/обновил ваш токен и значит мы можем создавать первые задания.</p></div>
-           <hr size="4" color="#1b2cc2">
-           <p>Начало: первые информационные команды</p>
-           <hr size="4" color="#1b2cc2">
-           <div class="mn">
-           		<p>Инфа<p><hr size="1" color="#fffdba"><p>Выводит информацию о наличии VIP<p><hr size="2" color="#efff3d">
-           		<p>Токены<p><hr size="1" color="#fffdba"><p>Выводит информацию о подключенных страницах<p><hr size="2" color="#efff3d">
-           		<p>Кнопки<p><hr size="1" color="#fffdba"><p>Выводит клавиатуру для удобного вызова команд<p>
-           </p></div>
-           <hr size="4" color="#1b2cc2">
-           <p>Основа: задания</p>
-           <hr size="4" color="#1b2cc2">
-           <div class="mn">
-           		<p>Задания<p><hr size="1" color="#fffdba"><p>Выводит все задания<p><hr size="2" color="#efff3d">
-           		<p>Задание <номер><p><hr size="1" color="#fffdba"><p>Выводит мини клавиатуру для управления заданием<p><hr size="2" color="#efff3d">
-           		<p>Создать задание<p><hr size="1" color="#fffdba"><p>Создает задание<p>После необходимо его настроить<p><hr size="2" color="#efff3d">
-           		<p>Задание редактировать <номер> [этап <1-2>]<p><hr size="1" color="#fffdba"><p>Включает перенастройку задания<p>Если указать этап включит перенастройку задания не с начала а с указанного номером запроса информации<p><hr size="2" color="#efff3d">
-           		<p>Задание <номер> удалить<p><hr size="1" color="#fffdba"><p>Удаляет задание<p><hr size="2" color="#efff3d">
-           		<p>Задание <номер> автоудаление <тип> <число><p><hr size="1" color="#fffdba"><p>Устанавливает автоудаление задание через кол-во выполений или заданное типом время<p><hr size="2" color="#efff3d">
-           		<p>Задание <номер> стикер [айди-стикера]<p><hr size="1" color="#fffdba"><p>Установливает стикер в качестве текста<p><hr size="2" color="#efff3d">
-			</p></div>
-			<hr size="4" color="#1b2cc2">
-           <p>Переменные в тексте</p>
-           <hr size="4" color="#1b2cc2">
-           <div class="mn">
-           		<p>%дата%<p><hr size="1" color="#fffdba"><p>Выводит дату формата 01.01.2000<p><hr size="2" color="#efff3d">
-           		<p>%цифродата%<p><hr size="1" color="#fffdba"><p>Выводит дату формата 01.01.2000 в смайлах<p><hr size="2" color="#efff3d">
-           		<p>%время%<p><hr size="1" color="#fffdba"><p>Выводит время формата 00:00<p><hr size="2" color="#efff3d">
-           		<p>%цифровремя%<p><hr size="1" color="#fffdba"><p>Выводит время формата 00:00 в смайлах<p><hr size="2" color="#efff3d">
-           		<p>%цифровремя%<p><hr size="1" color="#fffdba"><p>Заменяет все цифры в тексте на смайлы<p>Нельзя использовать %цифродата% и тд совместно с этой переменной<p><hr size="2" color="#efff3d">
-           		<p>%или%<p><hr size="1" color="#fffdba"><p>Делит текст на подтексты, границей которых является данная переменная.<p>Отправляет рандомный подтекст<p><hr size="2" color="#efff3d">
-           		<p>%друзей%<p><hr size="1" color="#fffdba"><p>Выводит количество друзей<p>Данная переменная поддерживается только при включенной сихронизации данных страницы<p><hr size="2" color="#efff3d">
-           		<p>%подписчиков%<p><hr size="1" color="#fffdba"><p>Выводит количество подписчиков<p>Данная переменная поддерживается только при включенной сихронизации данных страницы<p><hr size="2" color="#efff3d">
-           		<p>%друзей-онлайн%<p><hr size="1" color="#fffdba"><p>Выводит количество друзей в сети<p>Данная переменная поддерживается только при включенной сихронизации данных страницы<p><hr size="2" color="#efff3d">
-           		<p>%диалогов%<p><hr size="1" color="#fffdba"><p>Выводит количество диалогов<p>Данная переменная поддерживается только при включенной сихронизации данных страницы<p><hr size="2" color="#efff3d">
-           		<p>%диалог-имя%<p><hr size="1" color="#fffdba"><p>Выводит название последнего чата<p>Данная переменная поддерживается только при включенной сихронизации данных страницы<p><hr size="2" color="#efff3d">
-           		<p>%непрочитанных%<p><hr size="1" color="#fffdba"><p>Выводит количество не прочитанных сообщений<p>Данная переменная поддерживается только при включенной сихронизации данных страницы<p><hr size="2" color="#efff3d">
-           		
-			</p></div>
-           <div class="mn"><hr size="4" color="#1b2cc2"><hr size="6" color="#1b2cc2"></p></div>
+        
 
+<div class="content" id="w">
+	        <div class="widget">
+			  <h3 class="widget-title">Содержание</h3>
+			  <ul class="widget-list">
+			    <li><a class="rtp" href="#1">Информация</a></li>
+			    <li><a class="rtp" href="#2">Авторизация</a></li>
+			    <li><a class="rtp" href="#3">Команды</a></li>
+			    <li><a class="rtp" href="#4">Переменные</a></li>
+          <li><a class="rtp" href="#5">FAQ</a></li>
+			  </ul>
+			</div> <!-- это меню -->
+
+            <hr width="1320" class="linr">
+
+            <div id=1> <div class="widget"> <ul class="widget-list"> <li><a class="rtp" href="#1">Информация</a></li> </ul> </div>
+              <div class="mn"><p><a href="https://vk.com/first_avtopost" class="a">Сообщество ВКонтакте - Автопост | Автостатус</a><p><hr width="500" class="linr"><p><a href="https://vk.com/invite/cRnHJzH" class="a">Моментальная подписка на сообщество без заявок и ожидания принятия</a><hr width="1000" class="linr"><p>Функции: выполнений заданий через заданное время, автоматическая остановка, подключение не ограниченного количества аккаунтов и многое другое.<p>Автопост обновляет статус, отправляет сообщения, комментарии, посты с заданным интервалом и текстов. Вы можете использовать переменные в тексте.</p></div>
+            </div> <hr width="1300" class="linr">
+            <div id=2> <div class="widget"> <ul class="widget-list"> <li><a class="rtp" href="#2">Авторизация</a></li> </ul> </div>
+              <p>Для создания первого задания нужно авторизоваться. То есть вы должны дать токен от страницы, с которой будет выполнять задание. Хотим отметить - с нами вы и ваши данные в безопасности.<p>Давайте получим токен - <a href="https://oauth.vk.com/authorize?client_id=2685278&scope=1073737727&redirect_uri=https://oauth.vk.com/blank.html&display=page&response_type=token&revoke=1" class="a">тут</a>. В открытой вкладке в конце будет кнопка "Разрешить", которую вам необходимо нажать. Далее скопируйте ваш токен - ссылку на открытую страницу.<p>Теперь заходим в личные сообщения сообщества и пишем специальную команду "Добавить токен <токен>".</p>
+            </div> <hr width= "1300" class="linr">
+            <div id=3> <div class="widget"> <ul class="widget-list"> <li><a class="rtp" href="#3">Команды</a></li> </ul> </div>
+              <div class="wrap"> <div><p>Знаком "/" разделены варианты команд.<p>Аругменты в < > являются обязательными, а в [ ] нет.</p></div> </div>
+              <table height="90%" width="95%" cellspacing="4" cellpadding="3" bgcolor="#ffffff" align="center" border="1">
+                <tr>
+                  <th>Команда</th><th>Описание</th>
+                </tr>
+                <tr><td align="center">Начать/помощь/команды</td><td align="center">-</td></tr>
+                <tr><td align="center">Токен</td><td align="center">Информация по получению токена</td></tr>
+                <tr><td align="center">Инфа</td><td align="center">Наличие вип возможностей</td></tr>
+                <tr><td align="center">Токены</td><td align="center">Список подключенных токенов</td></tr>
+                <tr><td align="center">Токен добавить/добавить токен <токен></td><td align="center">Добавляет новую авторизацию или обновляет старую</td></tr>
+                <tr><td align="center">Токен resyns/resyns токен/синхронизация <айди></td><td align="center">Включает обновление переменных - относительно диалогов и информации страницы</td></tr>
+                <tr><td align="center">Токен удалить/удалить токен <айди></td><td align="center">Удаляет токен и его информацию</td></tr>
+                <tr><td align="center">Задания</td><td align="center">Список заданий, созданных с вашего аккаунта</td></tr>
+                <tr><td align="center">Создать задание</td><td align="center">Запускает настройку нового задания. Ответы на часто задаваеыме вопросы есть ниже в разделе FAQ</td></tr>
+                <tr><td align="center">Задание <номер></td><td align="center">Показывает клавиатуру управления заданием</td></tr>
+                <tr><td align="center">Задание редактировать/редактировать задание <номер> [этап <1-2>]</td><td align="center">Включает настройку задания. При указании этапа начальные настройки запрашиваться не будут</td></tr>
+                <tr><td align="center">Задание <номер> стикер [айди]</td><td align="center">Устанавливает указанный стикер для отправки</td></tr>
+                <tr><td align="center">Задание <номер> вложения [строка]</td><td align="center">Устаналивает указанную строку вложений для отправки с текстом</td></tr>
+                <tr><td align="center">Задание <номер> выключить</td><td align="center">Остановка и восстановление задания без удалений</td></tr>
+                <tr><td align="center">Задание <ноемр> автовыключение [колво/время <число>]</td><td align="center">Задания отключится автоматически через указанное колво выполнений или время в минутах</td></tr>
+                <tr><td align="center">Задание удалить/удалить задание <номер></td><td align="center">Удаляет задание</td></tr>
+                <tr><td align="center">Кнопки</td><td align="center">Показывает внешнюю клавиатуру</td></tr>
+              </table>
+            </div> <hr width="1300" class="linr">
+            <div id=4> <div class="widget"> <ul class="widget-list"> <li><a class="rtp" href="#4">Переменные</a></li> </ul> </div>
+              <table height="90%" width="95%" cellspacing="4" cellpadding="3" bgcolor="#ffffff" align="center" border="1">
+                <tr>
+                  <th>Название переменной</th><th>Описание</th><th>Пример</th>
+                </tr>
+                <tr><td align="center">%дата%</td><td align="center">Дата: день, месяц, год</td><td align="center">15.06.2020</td></tr>
+                <tr><td align="center">%время%</td><td align="center">Время: час, минут</td><td align="center">15:39</td></tr>
+                <tr><td align="center">%цифродата%</td><td align="center">Дата: день, месяц, год в смайлах</td><td align="center">-</td></tr>
+                <tr><td align="center">%цифровремя%</td><td align="center">Время: час, минут в смайлах</td><td align="center">-</td></tr>
+                <tr><td align="center">%подписчиков%</td><td align="center">Подписчиков на странице</td><td align="center">42</td></tr>
+                <tr><td align="center">%друзей%</td><td align="center">Друзей на странице</td><td align="center">723</td></tr>
+                <tr><td align="center">%друзей-онлайн%</td><td align="center">Друзей онлайн на странице</td><td align="center">49</td></tr>
+                <tr><td align="center">%диалогов%</td><td align="center">Количество диалогов</td><td align="center">1281</td></tr>
+                <tr><td align="center">%диалог-имя%</td><td align="center">Название последнего чата</td><td align="center">Чат ВКонтакте</td></tr>
+                <tr><td align="center">%непрочитанных%</td><td align="center">Количество непрочитанных диалогов на странице</td><td align="center">0</td></tr>
+                <tr><td align="center">%цифростатус%</td><td align="center">Изменяет все цифры текста на смайлы</td><td align="center">-</td></tr>
+                <tr><td align="center">%или%</td><td align="center">Делит текст на рандом части</td><td align="center">-</td></tr>
+              </table>
+            </div> <hr width="1300" class="linr">
+            <div id=5> <div class="widget"> <ul class="widget-list"> <li><a class="rtp" href="#5">FAQ</a></li> </ul> </div>
+              <table height="60%" width="95%" cellspacing="4" cellpadding="3" bgcolor="#ffffff" align="center" border="1">
+                <tr>
+                  <th>Вопрос</th><th>Ответ</th>
+                </tr>
+                <tr><td align="center">Как создать задание?</td><td align="center">Ввведите команду "Создать задание"</td></tr>
+                <tr><td align="center">Как получить id стикера?</td><td align="center">Отправьте его в сообщении. Нажмите правую кнопку мыши и выберите "посмотреть код". В выделенной строке есть ссылка с id. Например в ссылке "https://vk.com/sticker/1-9032-128" айди стикера - 9032</td></tr>
+                <tr><td align="center">Как получить id страницы или сообщества?</td><td align="center">В ссылке на фотографию/пост/видео и тд присутствует id аккаунта. Стоит заметить, что id соообщества отрицательный. Например в ссылке "https://vk.com/first_cm?w=wall-171475621_723" айди аккаунта это -171475621. То есть оно находится между типом вложения и айди вложения.</td></tr>
+                <tr><td align="center">Как получить id поста?</td><td align="center">Также обратимся к ссылке на него. Например в ссылке "https://vk.com/first_cm?w=wall-171475621_738" айди поста - 738</td></tr>
+              </table>
+            </div>
+           
+			
     </body>
 </html>

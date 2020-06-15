@@ -11,3 +11,74 @@ a {
     font-size: 40px;
     color: #26fc42;
 }
+.widget {
+  padding: 0px 0px;
+  background: #F5F7F9;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+.widget-title {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #222;
+  font-size: 24px;
+  font-family: 'Caveat', cursive;
+}
+.widget-list {
+  padding: 0;
+  list-style: none;
+}
+.widget-list a:before {
+  content: "\2014";
+  margin-right: 14px;
+}
+.widget-list a {
+  text-decoration: none;
+  outline: none;
+  display: block;
+  padding: 6px 0; 
+  letter-spacing: 1px;
+  font-weight: 300;
+  color: #444;
+  transition: .3s linear;
+}
+.widget-list a:hover {color: #b99d61;}
+.text{
+	margin-left: 130px;
+}
+pre {
+	background-color: #2b2b2b;
+	padding: 5px;
+	border-radius: 2px;
+	color: white;
+	/*text-align: center;*/
+	
+}
+
+
+/*Меню*/
+.rtpz {
+                font-size: 26px; /* Размер текста заголовка бокового меню */
+                font-family: 'Caveat', cursive;
+                border-left: 2px solid #b99d61;
+            }
+.rtp {
+                font-size: 20px; /* Размер текста пунктов бокового меню */
+                font-family: 'Caveat', cursive;
+            }
+/*Полоса*/
+.linr {
+              size: 0.8;
+              color: "#1b2cc2";
+              margin-top: 0.5em;
+              margin-bottom: 0.5em;
+            }
+/*Вставка фото 50*50*/
+.clph {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+	height: 500px;
+	margin-top: 1em; /* Отступ сверху перед фото*/
+}
