@@ -115,7 +115,3 @@ pre {
             .tbsa td:last-child {
                 border-right: none;
             }
-            .tbsa tr:hover td {
-                text-decoration: underline;
-                font-weight: bold;
-            }
