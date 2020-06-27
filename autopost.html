@@ -71,12 +71,11 @@
     <body class="body">
         <header class="hdr"><a href="index.html">Дима Смирнов</a></header>
         
-        <header class="hdr1"><a href="info.html">Информация</a> | <a href="news.html">Новости</a> | <a href="contacks.html">Контакты</a> | <a href="projects.html" class="main">Проекты</a></header> 
+        <header class="hdr1"><a href="info.html">Информация</a> | <a href="contacks.html">Контакты</a> | <a href="projects.html" class="main">Проекты</a></header> 
         <hr size="0.8" color="#1b2cc2">
                 <header class="hdr1">
             <a href="autopost.html" class="main">Автопост</a> | 
-            <a href="cm.html" >Чат менеджер</a> | 
-            <a href="raidsystem.html" >Рейд боты</a>
+            <a href="cm.html" >Чат менеджер</a> 
         </header>
         
 
@@ -87,7 +86,8 @@
 			    <li><a class="rtp" href="#1">Информация</a></li>
 			    <li><a class="rtp" href="#2">Авторизация</a></li>
 			    <li><a class="rtp" href="#3">Команды</a></li>
-			    <li><a class="rtp" href="#4">Переменные</a></li>
+                <li><a class="rtp" href="#4">Тарифы</a></li>
+			    <li><a class="rtp" href="#5">Переменные</a></li>
           <li><a class="rtp" href="#5">FAQ</a></li>
 			  </ul>
 			</div> <!-- это меню -->
@@ -125,7 +125,19 @@
                 <tr><td>Кнопки</td><td>Показывает внешнюю клавиатуру</td></tr>
               </table>
             </div> <hr width="1300" class="linr">
-            <div id=4> <div class="widget"> <ul class="widget-list"> <li><a class="rtp" href="#4">Переменные</a></li> </ul> </div>
+            <div id=4> <div class="widget"> <ul class="widget-list"> <li><a class="rtp" href="#4">Тарифы</a></li> </ul> </div>
+              <table class="tbsa">
+                <tr>
+                  <th></th><th>Бесплатный тариф</th><th>VIP тариф</th><th>VIP+ тариф</th>
+                </tr>
+                <tr><td>Цена в рублях</td><td>0</td><td>30</td><td>70</td></tr>
+                <tr><td>Количество заданий</td><td>5</td><td>20</td><td>45</td></tr>
+                <tr><td>Длина текста в символах</td><td>500</td><td>800</td><td>1500</td></tr>
+                <tr><td>Частота выполнения заданий в секундах</td><td>90</td><td>50</td><td>20</td></tr>
+                <tr><td>Количество использований переменной %или%</td><td>3</td>><td>10</td><td>20</td></tr>
+              </table>
+            </div> <hr width="1300" class="linr">
+            <div id=5> <div class="widget"> <ul class="widget-list"> <li><a class="rtp" href="#5">Переменные</a></li> </ul> </div>
               <table class="tbsa">
                 <tr>
                   <th>Название переменной</th><th>Описание</th><th>Пример</th>
@@ -155,7 +167,19 @@
                 <tr><td>Как получить id поста?</td><td>Также обратимся к ссылке на него. Например в ссылке "https://vk.com/first_cm?w=wall-171475621_738" айди поста - 738</td></tr>
               </table>
             </div>
-           
-			
+                <br>
+                <div align="center">
+			<script type="text/javascript" src="https://vk.com/js/api/openapi.js?168"></script>
+
+<script type="text/javascript">
+  VK.init({apiId: 7523842, onlyWidgets: true});
+</script>
+
+<!-- Put this div tag to the place, where the Poll block will be -->
+<div id="vk_poll"></div>
+<script type="text/javascript">
+VK.Widgets.Poll("vk_poll", {width: "1000"}, "381176383_853ac29249754d000b");
+</script> </div>
+        <br>
     </body>
 </html>
